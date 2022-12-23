@@ -5,15 +5,4 @@ import { ClassNames } from "@emotion/react";
 export default () => <img src={fotojho}/>;
 
 
-
-function contato() {
-    const onBlur = (e) => {
-        console.log(e.target.value);
-    }
-    return (
-        <div>
-            <h1>Contato</h1>
-            <input type="text" onBlur={onBlur} />
-        </div>
-    );
-}
+<a target="_blank" href="https://www.linkedin.com/in/jhonatan-almeida-alflen-965584248/">< texto do botao></texto> </a>
